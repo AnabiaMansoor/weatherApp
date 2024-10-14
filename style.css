@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.card{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    margin: 50px 50px;
+    padding: 40px 35px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+    height: 600px;
+}
+/* .card:active{
+    height: 350px;
+} */
+.search 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    width:50%;
+    font-size:15px;
+}
+.search button{
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 8px;
+    color: white;
+    background-color: #1b5243;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #7fa69c;
+}
+.weather .fa-cloud-rain
+{
+    font-size: 6rem;
+    margin-top: 40px;
+}
+
+.weather h1{
+    font-size: 58px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.weather h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 9px;
+}
+.weather{
+    /* display: none; */
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 50px;
+    
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left    ;
+}
+.col .fa-water .humidity p  {
+    margin:15px;
+}
+.col .fa-wind{
+    margin-left: 6cqw;
+}
+.col .fa-wind{
+    font-size: 54px;
+    margin-left:2rem;
+    padding: 9px;
+}
+.col .fa-water{
+    margin-left: 6px;
+}
+.col .fa-water {
+    font-size: 54px;
+    margin: 5px;
+    padding: 10px;
+}
+.col p {
+    font-size: 20px;
+}
+.text{
+    padding: 9px;
+    margin: -1px;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 13rem;
+}
+
+/* .weather{
+    display: none;
+} */
+ .error{
+    position: absolute;
+    color: red;
+    text-align: left;
+    margin-top: 60px;
+    font-size: 17px;
+ }
+ .fas {
+    font-size: 113px;
+    padding: 32px;
+ }
